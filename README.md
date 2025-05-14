@@ -8,7 +8,7 @@ A Streamlit app that answers your questions using both public websites and YouTu
 git clone https://github.com/your/repo.git
 cd ask-qa
 cp .env.example .env  # Add your API keys
-docker build -t ask-qa .
+docker build .
 docker run -p 8501:8501 ask-qa
 
 
